@@ -6,19 +6,20 @@ layout: default
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Valente — Data & AI Professional</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="{{ "css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " css/style.css" | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <script src="https://unpkg.com/feather-icons"></script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
-  
+
 <body>
   <header>
     <h1>Valente — Data & AI Professional</h1>
@@ -26,20 +27,23 @@ layout: default
   </header>
 
   <section id="profile" class="fullpage">
-    <div id="about" class="background-alt">
-      <section>
+    <div id="about" class="bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
+      <section class="max-w-3xl mx-auto">
         <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">👋 About Me</h2>
         <p>
-          I am a data analytics professional with 7+ years of experience across industries such as finance and hospitality.
-          My focus is on <strong>Business Analytics</strong> and <strong>AI-driven solutions</strong> that bridge technical execution with business impact.
-          Currently pursuing the <strong>NUS-ISS MTech in Artificial Intelligence System (AIS)</strong> programme to deepen expertise in data science, machine learning, and enterprise AI applications.
+          I am a data analytics professional with 7+ years of experience across industries such as finance and
+          hospitality.
+          My focus is on <strong>Business Analytics</strong> and <strong>AI-driven solutions</strong> that bridge
+          technical execution with business impact.
+          Currently pursuing the <strong>NUS-ISS MTech in Artificial Intelligence System (AIS)</strong> programme to
+          deepen expertise in data science, machine learning, and enterprise AI applications.
         </p>
       </section>
     </div>
 
     <!-- Start of Career Goals -->
     <div id="goals" class="bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
-    <!-- <div id="goals" class="background-alt py-12"> -->
+      <!-- <div id="goals" class="background-alt py-12"> -->
       <section class="max-w-3xl mx-auto">
         <h2 class="text-3xl font-bold text-sky-500 mb-8 flex items-center">
           🎯 Career Goals
@@ -47,15 +51,18 @@ layout: default
         <ul class="list-none space-y-4">
           <li class="flex items-start">
             <i class="fas fa-user-tie text-indigo-600 mr-3 mt-1"></i>
-            <span>Grow into leadership roles in analytics, shaping strategy as a domain expert or solution architect.</span>
+            <span>Grow into leadership roles in analytics, shaping strategy as a domain expert or solution
+              architect.</span>
           </li>
           <li class="flex items-start">
             <i class="fas fa-robot text-green-500 mr-3 mt-1"></i>
-            <span>Build scalable, ethical AI systems that enhance compliance, automate workflows, and drive profitability.</span>
+            <span>Build scalable, ethical AI systems that enhance compliance, automate workflows, and drive
+              profitability.</span>
           </li>
           <li class="flex items-start">
             <i class="fas fa-people-arrows text-pink-500 mr-3 mt-1"></i>
-            <span>Mentor junior analysts and actively contribute to enterprise digital transformation initiatives.</span>
+            <span>Mentor junior analysts and actively contribute to enterprise digital transformation
+              initiatives.</span>
           </li>
         </ul>
       </section>
@@ -65,41 +72,65 @@ layout: default
     <!-- Start of Experience -->
     <div id="experience" class="background-alt">
       <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">👔 Experience</h2>
-      
+
       <div id="experience-timeline">
+        <!-- SS&C -->
+        <div data-date="September 2025 – Present">
+          <h3>SS&C</h3>
+          <h4>Business Analyst Manager</h4>
+          <ul class="list-disc pl-5">
+            <li>Performed root cause analysis and identify areas of improvement, performed data cleaning and
+              transformation to automate process. Improving accuracy and efficiency by over 70% and reducing manually
+              error.</li>
+          </ul>
+        </div>
+
         <!-- Marina Bay Sands -->
-        <div data-date="August 2023 – Present">
+        <div data-date="August 2023 – September 2025">
           <h3>Marina Bay Sands</h3>
           <h4>Senior Data Analyst</h4>
           <ul class="list-disc pl-5">
-            <li>Design, develop, and maintain interactive performance dashboards and reports in Tableau to drive executive decisions on revenue, anti-corruption, AML, and guest behaviour.</li>
-            <li>Built scalable, automated ETL pipelines with Python and SQL, reducing manual data-prep effort by 40% and increasing processing throughput.</li>
-            <li>Led a cross-department initiative to develop a PII redaction pipeline for PDF reports using multiple OCR models, enhancing data privacy compliance and text-recognition accuracy.</li>
-            <li>Devised a hybrid model with strong emphasis on interpretability for detecting corruption and money laundering, clearly conveying the rationale behind model decisions.</li>
+            <li>Design, develop, and maintain interactive performance dashboards and reports in Tableau to drive
+              executive decisions on revenue, anti-corruption, AML, and guest behaviour.</li>
+            <li>Built scalable, automated ETL pipelines with Python and SQL, reducing manual data-prep effort by 40% and
+              increasing processing throughput.</li>
+            <li>Led a cross-department initiative to develop a PII redaction pipeline for PDF reports using multiple OCR
+              models, enhancing data privacy compliance and text-recognition accuracy.</li>
+            <li>Devised a hybrid model with strong emphasis on interpretability for detecting corruption and money
+              laundering, clearly conveying the rationale behind model decisions.</li>
           </ul>
         </div>
-      
+
         <!-- J.P. Morgan -->
         <div data-date="July 2020 – August 2023">
           <h3>J.P. Morgan</h3>
           <h4>Business Analyst</h4>
           <ul class="list-disc pl-5">
-            <li>Translated business requirements into automated data ingestion and transformation processes using SQL, Python, and event-log mining; implemented metrics to track processes, improving efficiency by 30%.</li>
-            <li>Supported machine-learning initiatives (anomaly detection) by conducting descriptive analysis and crafting analytical reports that influenced cross-functional stakeholders.</li>
-            <li>Developed a Python-based Machine Learning Email Classifier Model in collaboration with cross-functional teams, generating insightful analytical reports to communicate valuable findings.</li>
-            <li>Optimized machine learning models using historical data to predict settlement failures with 70% accuracy; developed and maintained Tableau dashboards to monitor settlement failures and key financial KPIs, fueling risk-mitigation strategies.</li>
+            <li>Translated business requirements into automated data ingestion and transformation processes using SQL,
+              Python, and event-log mining; implemented metrics to track processes, improving efficiency by 30%.</li>
+            <li>Supported machine-learning initiatives (anomaly detection) by conducting descriptive analysis and
+              crafting analytical reports that influenced cross-functional stakeholders.</li>
+            <li>Developed a Python-based Machine Learning Email Classifier Model in collaboration with cross-functional
+              teams, generating insightful analytical reports to communicate valuable findings.</li>
+            <li>Optimized machine learning models using historical data to predict settlement failures with 70%
+              accuracy; developed and maintained Tableau dashboards to monitor settlement failures and key financial
+              KPIs, fueling risk-mitigation strategies.</li>
           </ul>
         </div>
-      
+
         <!-- Cognizant Technology Solutions -->
         <div data-date="August 2018 – July 2020">
           <h3>Cognizant Technology Solutions</h3>
           <h4>Business Analyst</h4>
           <ul class="list-disc pl-5">
-            <li>Developed and maintained interactive Tableau dashboards and Excel reports to visualize user engagement, daily active users, and retention trends, informing product decisions.</li>
-            <li>Built robust ETL pipelines with SQL and Python to gather and clean multi-source data, cutting 4 hours of manual work per month.</li>
-            <li>Designed and executed A/B tests on UI enhancements; applied clustering and statistical analysis to boost retention rates by 20%.</li>
-            <li>Defined and automated new user-behaviour metrics via Excel VBA scripts, generating insights that guided targeted marketing strategies and reduced resource load by 5 FTE.</li>
+            <li>Developed and maintained interactive Tableau dashboards and Excel reports to visualize user engagement,
+              daily active users, and retention trends, informing product decisions.</li>
+            <li>Built robust ETL pipelines with SQL and Python to gather and clean multi-source data, cutting 4 hours of
+              manual work per month.</li>
+            <li>Designed and executed A/B tests on UI enhancements; applied clustering and statistical analysis to boost
+              retention rates by 20%.</li>
+            <li>Defined and automated new user-behaviour metrics via Excel VBA scripts, generating insights that guided
+              targeted marketing strategies and reduced resource load by 5 FTE.</li>
           </ul>
         </div>
       </div>
@@ -107,14 +138,69 @@ layout: default
     <!-- End of Experience Timeline -->
 
     <!-- Start of Education -->
-    <div id="education" class="background-alt">
+    <div id="education"
+      class="bg-white border border-gray-200 rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
       <section>
-        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">📚 Education</h2>
-        <p><strong>MTech in Artificial Intelligence System (AIS)</strong> — NUS-ISS (in progress)</p>
-        <p>Background in Business Analytics and Data Science</p>
+        <h2 class="text-3xl font-bold text-sky-500 mb-8 flex items-center">📚 Education</h2>
+
+        <!-- MTech AIS -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold text-sky-600 mb-2">🎓 Master of Technology in Artificial Intelligence
+            Systems (MTech AIS)</h3>
+          <p class="text-gray-700"><strong>NUS</strong> — In Progress</p>
+          <ul class="list-disc pl-6 text-gray-700 space-y-2 mt-2">
+            <li>Practice-based programme covering <strong>Machine Learning</strong>, <strong>Deep Learning</strong>,
+              <strong>Generative AI</strong>, and <strong>Large Language Models (LLMs)</strong>.
+            </li>
+            <li>Applications across robotics, autonomous vehicles, IoT, smart cities, and enterprise AI systems.</li>
+            <li>Emphasis on <strong>Explainable & Responsible AI</strong>, AI cybersecurity, and MLSecOps practices.
+            </li>
+            <li>Capstone project with industry collaboration to deliver impactful AI solutions.</li>
+          </ul>
+        </div>
+
+        <!-- BSc Business Analytics -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold text-sky-600 mb-2">🎓 Bachelor of Science in Business Analytics</h3>
+          <p class="text-gray-700"><strong>Singapore University of Social Sciences (SUSS)</strong></p>
+          <ul class="list-disc pl-6 text-gray-700 space-y-2 mt-2">
+            <li>Applied <strong>business acumen</strong> and <strong>analytics expertise</strong> to transform raw data
+              into actionable insights supporting executive decision‑making.</li>
+            <li>Completed <strong>65 credit units</strong> of core analytics modules including statistics, forecasting,
+              optimisation, and data mining, building a strong technical foundation.</li>
+            <li>Delivered <strong>real‑world projects and capstone assignments</strong> that mirrored industry
+              challenges, ensuring job‑ready applied analytics skills.</li>
+            <li>Pursued <strong>minors and electives</strong> (ICT, FinTech, Marketing) to broaden adaptability across
+              diverse industries.</li>
+            <li>Earned <strong>professional certifications</strong> such as Google Analytics and AWS Certified Machine
+              Learning, strengthening technical credibility.</li>
+            <li>Developed strong skills in <strong>data storytelling and stakeholder communication</strong>, enabling
+              clear translation of analytics into business strategies.</li>
+            <li>Engaged in <strong>student interest groups and innovation forums</strong>, cultivating collaboration,
+              adaptability, and leadership potential.</li>
+          </ul>
+        </div>
+
+        <!-- Diploma in Big Data & Analytics -->
+        <div class="mb-8">
+          <h3 class="text-xl font-semibold text-sky-600 mb-2">📊 Diploma in Financial Business Informatics</h3>
+          <p class="text-gray-700"><strong>Temasek Polytechnic</strong></p>
+          <ul class="list-disc pl-6 text-gray-700 space-y-2">
+            <li>Hands‑on experience in <strong>data visualisation, analytics lifecycle, and predictive
+                modelling</strong> using industry tools.</li>
+            <li>Built strong foundations in <strong>database application development, data structures & algorithms, and
+                computational thinking</strong>.</li>
+            <li>Completed internships with organisations applying analytics to real‑world business challenges. </li>
+            <li>Practiced applied learning at the <strong>Analytics Innovation Centre</strong> (SAS collaboration),
+              developing business intelligence solutions in a data‑rich environment.</li>
+            <li>Developed smart applications leveraging <strong>machine learning, deep learning, and AI
+                fundamentals</strong>.</li>
+          </ul>
+        </div>
       </section>
     </div>
-  
+    <!-- End of Education -->
+
     <!-- Start of Personal Projects -->
     <div id="work" class="background-alt">
       <section id="work" class="mb-12">
@@ -122,7 +208,8 @@ layout: default
           <i data-feather="briefcase" class="mr-3"></i>📂 Personal Projects
         </h2>
         <!-- NLP Email Classifier -->
-        <div id="nlp-email" class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
+        <div id="nlp-email"
+          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
           <div class="grid md:grid-cols-2 gap-8">
             <!-- Left column -->
             <div class="p-8">
@@ -156,15 +243,18 @@ layout: default
             <!-- Right column (optional screenshots) -->
             <div class="carousel-container relative h-96 md:h-auto">
               <!-- Replace with screenshots if available -->
-              <div class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Mushroom.jpg" alt="NLP Email Classifier screenshot" class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
+              <div
+                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
+                <img src="assets/img/Mushroom.jpg" alt="NLP Email Classifier screenshot"
+                  class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
               </div>
             </div>
           </div>
         </div>
-    
+
         <!-- PII Redaction Pipeline -->
-        <div id="pii-redaction" class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
+        <div id="pii-redaction"
+          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
           <div class="grid md:grid-cols-2 gap-8">
             <div class="p-8">
               <h3 class="text-2xl font-bold text-sky-700 mb-2">PII Redaction Pipeline</h3>
@@ -177,20 +267,25 @@ layout: default
                 OCR-based system to detect and mask sensitive information in PDFs.
               </p>
               <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Detects PII in scanned documents</span></li>
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Masks sensitive fields automatically</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Detects PII in scanned documents</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Masks sensitive fields automatically</span></li>
               </ul>
             </div>
             <div class="carousel-container relative h-96 md:h-auto">
-              <div class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Mushroom.jpg" alt="PII Redaction screenshot" class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
+              <div
+                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
+                <img src="assets/img/Mushroom.jpg" alt="PII Redaction screenshot"
+                  class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
               </div>
             </div>
           </div>
         </div>
-        
+
         <!-- Movie Recommendation System -->
-        <div id="movie-recommender" class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
+        <div id="movie-recommender"
+          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
           <div class="grid md:grid-cols-2 gap-8">
             <div class="p-8">
               <h3 class="text-2xl font-bold text-sky-700 mb-2">Movie Recommendation System</h3>
@@ -203,20 +298,25 @@ layout: default
                 Sentiment-driven recommender using text mining and NLP.
               </p>
               <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Analyzes movie reviews for sentiment</span></li>
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Generates personalized recommendations</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Analyzes movie reviews for sentiment</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Generates personalized recommendations</span></li>
               </ul>
             </div>
             <div class="carousel-container relative h-96 md:h-auto">
-              <div class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Mushroom.jpg" alt="Movie Recommendation screenshot" class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
+              <div
+                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
+                <img src="assets/img/Mushroom.jpg" alt="Movie Recommendation screenshot"
+                  class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
               </div>
             </div>
           </div>
         </div>
-        
+
         <!-- Computer Vision Object Detection -->
-        <div id="cv-detection" class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
+        <div id="cv-detection"
+          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
           <div class="grid md:grid-cols-2 gap-8">
             <div class="p-8">
               <h3 class="text-2xl font-bold text-sky-700 mb-2">Computer Vision Object Detection</h3>
@@ -229,20 +329,25 @@ layout: default
                 CNN-based pipeline for image recognition tasks.
               </p>
               <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Detects objects in real-time</span></li>
-                <li class="flex items-start"><i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i><span>Supports multiple image classes</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Detects objects in real-time</span></li>
+                <li class="flex items-start"><i data-feather="check-circle"
+                    class="text-green-500 mr-2 mt-0.5"></i><span>Supports multiple image classes</span></li>
               </ul>
             </div>
             <div class="carousel-container relative h-96 md:h-auto">
-              <div class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Mushroom.jpg" alt="Object Detection screenshot" class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
+              <div
+                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
+                <img src="assets/img/Mushroom.jpg" alt="Object Detection screenshot"
+                  class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
               </div>
             </div>
           </div>
         </div>
-    
+
         <!-- Music Identification Tool -->
-        <div id="music-identification" class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
+        <div id="music-identification"
+          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
           <div class="grid md:grid-cols-2 gap-8">
             <!-- Left column -->
             <div class="p-8">
@@ -277,8 +382,10 @@ layout: default
             </div>
             <!-- Right column (optional screenshot) -->
             <div class="carousel-container relative h-96 md:h-auto">
-              <div class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Mushroom.jpg" alt="Music Identification Tool screenshot" class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
+              <div
+                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
+                <img src="assets/img/Mushroom.jpg" alt="Music Identification Tool screenshot"
+                  class="rounded-lg shadow-lg w-[85%] sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4 object-contain flex-shrink-0 snap-center" />
               </div>
             </div>
           </div>
@@ -286,53 +393,59 @@ layout: default
       </section>
     </div>
     <!-- End of Personal Projects -->
-  
+
     <!-- Skills Section -->
-    <div id="skills" class="background-alt py-12"> -->
+    <div id="skills" class="background-alt py-12">
       <section id="skills" class="bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
         <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">
           <i data-feather="code" class="mr-3"></i> 🛠️ Skills
         </h2>
-      
-        <!-- Programming -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">💻 Programming</h3>
+
+        <!-- Business Analytics -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">📊 Business Analytics</h3>
         <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">Python</span>
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">Pandas</span>
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">NumPy</span>
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">Scikit-Learn</span>
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">SQL</span>
-          <span class="skill-pill bg-blue-700 text-white px-4 py-2 rounded-full">VBA</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Business Acumen</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Change Management</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Data Visualization &
+            Storytelling</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Process Improvement</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Requirements Gathering</span>
+          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Stakeholder Communication</span>
         </div>
-      
-        <!-- Data Science & AI -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">🤖 Data Science & AI</h3>
+
+        <!-- Data Analytics -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">📈 Data Analytics</h3>
         <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Computer Vision</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">ETL Workflows</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">NLP</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">OCR Pipelines</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">OpenCV</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Predictive Modelling</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Recommender Systems</span>
+          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Data Cleaning & Pre-processing</span>
+          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Exploratory Data Analysis (EDA)</span>
+          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Reporting & Dashboard Creation</span>
         </div>
-    
-        <!-- Analytics -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">🧠 Analytics</h3>
+
+        <!-- Data Science -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">🧪 Data Science</h3>
         <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">A/B Testing</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Business Forecasting</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Data Mining</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Data Visualization</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Database Structures & Algorithms</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Machine Learning</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Predictive Modelling</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Probability</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Quantitative Analysis</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Statistical Analysis</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Text Mining</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Database Querying</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Data Engineering</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Feature Engineering & Model
+            Selection</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Machine Learning Algorithms</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Model Evaluation</span>
+          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Statistics</span>
         </div>
-        
+
+        <!-- AI & ML -->
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">🤖 AI & ML</h3>
+        <div class="flex flex-wrap gap-3 mb-8">
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Computer Vision</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Deep Learning</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Generative Models</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Model Deployment & MLOps</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Natural Language Processing</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Optimization Techniques</span>
+          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Reinforcement Learning</span>
+        </div>
+
+
         <!-- Tools -->
         <h3 class="text-xl font-semibold text-gray-800 mb-4">⚙️ Tools</h3>
         <div class="flex flex-wrap gap-3 mb-8">
@@ -346,7 +459,7 @@ layout: default
           <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Tableau</span>
           <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">UiPath</span>
         </div>
-      
+
         <!-- Soft Skills -->
         <h3 class="text-xl font-semibold text-gray-800 mb-4">🌟 Soft Skills</h3>
         <div class="flex flex-wrap gap-3">
@@ -356,27 +469,35 @@ layout: default
         </div>
       </section>
     </div>
-    <!- End of Skills Section -->
+    <!-- End of Skills Section -->
 
     <!-- Start of Interest -->
-    <section>
-      <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">🌐 Interests</h2>
-      <ul>
-        <li>Exploring AI applications in finance (e.g., facial payments, fraud detection)</li>
-        <li>Building personal projects in NLP, CV, and audio sensing</li>
-      </ul>
-    </section>
-  
-    <section class="contact">
-      <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">📫 Contact</h2>
-      <p>
-        LinkedIn: <a href="YOUR-LINKEDIN-URL">Your LinkedIn URL</a><br>
-        Email: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
-        Github: <a href="YOUR-LINKEDIN-URL">Your Github URL</a><br>
-        Kaggle: <a href="YOUR-LINKEDIN-URL">Your Kaggle URL</a><br>
-        Tableau: <a href="YOUR-LINKEDIN-URL">Your Tableau URL</a><br>
-      </p>
-    </section>
+    <div id="interests" class="bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
+      <section id="interests" class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">🌐 Interests</h2>
+        <ul>
+          <li>Exploring AI applications in finance (e.g., facial payments, fraud detection)</li>
+          <li>Building personal projects in NLP, CV, and audio sensing</li>
+        </ul>
+      </section>
+    </div>
+    <!-- End of Interest -->
+
+    <!-- Start of Contact  -->
+    <div id="contact" class="bg-white rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90">
+      <section id="contact" class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">📫 Contact</h2>
+        <p>
+          LinkedIn: <a href="YOUR-LINKEDIN-URL">Your LinkedIn URL</a><br>
+          Email: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+          Github: <a href="YOUR-LINKEDIN-URL">Your Github URL</a><br>
+          Kaggle: <a href="YOUR-LINKEDIN-URL">Your Kaggle URL</a><br>
+          Tableau: <a href="YOUR-LINKEDIN-URL">Your Tableau URL</a><br>
+        </p>
+      </section>
+    </div>
+    <!-- End of Contact -->
+
   </section>
 </body>
 
