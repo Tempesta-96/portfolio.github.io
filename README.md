@@ -1,73 +1,98 @@
-# Valente — Data & AI Professional
-Business Analyst | Data Science | AI Solutions | Leadership
+# Valente Lam — Portfolio & Résumé
+
+A responsive personal website that combines a professional résumé with a visual project portfolio.
+
+The site presents my experience as an **AI Engineer and Data Scientist**, including seven years of work across financial services, hospitality, and technology. It highlights production machine learning, data engineering, computer vision, natural language processing, and responsible AI.
+
+## Live website
+
+[View the portfolio](https://tempesta-96.github.io/portfolio.github.io/)
+
+## About me
+
+I build AI systems that move from prototype to production. My experience includes:
+
+- Production machine-learning and data pipelines
+- NLP classifiers and workflow automation
+- Computer vision and automated PII redaction
+- Interpretable anomaly detection for AML and risk use cases
+- Executive analytics and data storytelling
+- AI governance, MLOps, and responsible AI practices
+
+I am currently pursuing a part-time **Master of Technology in Artificial Intelligence Systems** at the National University of Singapore.
+
+## Website features
+
+- Professional profile and résumé summary
+- Chronological employment history with measurable outcomes
+- Visual portfolio of selected AI and data-science projects
+- Technical skills and technology toolkit
+- Education and professional contact sections
+- Responsive navigation for desktop and mobile
+- Accessible semantic HTML and reduced-motion support
+- Print-optimised A4 résumé with **Save as PDF** support
+- Lightweight implementation without a JavaScript framework
+
+## Selected projects
+
+| Project | Focus | Technologies |
+| --- | --- | --- |
+| PII Redaction Pipeline | Automated detection and masking of sensitive data in scanned documents | Python, OCR, Deep Learning |
+| NLP Email Classifier | Email categorisation for automated operational workflows | Python, BERT, NLP |
+| Movie Recommender | Sentiment-driven personalised recommendations | Python, NLP, Text Mining |
+| Object Detection | Real-time multi-class image recognition and localisation | Python, CNN, Computer Vision |
+| Music Identification | Audio fingerprinting in noisy environments | Python, Audio Processing, Signal Analysis |
+
+## Technology
+
+- HTML5
+- Modern CSS
+- Vanilla JavaScript
+- Google Fonts
+- GitHub Pages
+
+## Project structure
+
+```text
+portfolio.github.io/
+├── assets/
+│   └── img/             # Project screenshots and visual assets
+├── css/
+│   └── style.css        # Layout, responsive design, and print styles
+├── js/
+│   └── script.js        # Navigation, animations, and print controls
+├── _config.yml          # GitHub Pages configuration
+├── index.html           # Main portfolio and résumé page
+└── README.md
+```
+
+## Run locally
+
+No build process or package installation is required.
+
+```bash
+git clone https://github.com/Tempesta-96/portfolio.github.io.git
+cd portfolio.github.io
+python -m http.server 8000
+```
+
+Then open [http://localhost:8000](http://localhost:8000) in a browser.
+
+## Export the résumé
+
+Open the website and select **Save as PDF** or **Print résumé**. The print stylesheet automatically removes portfolio-only decoration and formats the professional profile, experience, skills, and education for A4 output.
+
+## Deployment
+
+The website is designed for GitHub Pages. After changes are committed and pushed to the repository’s publishing branch, GitHub Pages will deploy the static files automatically when Pages is enabled in the repository settings.
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/valente-lam-ba90a1183/)
+- [GitHub](https://github.com/Tempesta-96)
+- [Kaggle](https://www.kaggle.com/perfectnight123)
+- [Tableau Public](https://public.tableau.com/app/profile/valente5895/vizzes)
 
 ---
 
-## 👋 About Me
-I am **Valente Lam**, a data analytics professional with over seven years of experience in finance, hospitality, and technology.  
-Currently pursuing a part‑time **Master of Technology in Artificial Intelligence Systems** at the National University of Singapore, I specialize in bridging technical execution with strategic business impact.
-
-- **Industry Experience:** 7+ years delivering analytics and AI solutions across finance, hospitality, and technology sectors  
-- **AI‑Driven Impact:** Designed solutions that enhance compliance, automate processes, and uncover actionable insights  
-- **Technical Expertise:** Built resilient data pipelines, fraud detection models, and interpretable machine learning systems  
-- **Enterprise Readiness:** Proven ability to translate complex algorithms into scalable, business‑ready solutions  
-- **Leadership Vision:** Committed to shaping Singapore’s digital ecosystem through responsible, ethical, and scalable AI adoption  
-
----
-
-## 🏢 Experience
-### SS&C Technology — Business Analyst Manager (Sep 2025 – Present)
-- Automated processes through data cleaning and transformation, improving accuracy and efficiency by 70%  
-
-### Marina Bay Sands — Senior Data Analyst (Aug 2023 – Sep 2025)
-- Designed interactive dashboards for executive decisions on revenue, AML, and guest behaviour  
-- Built scalable ETL pipelines, reducing manual effort by 40%  
-- Developed a PII redaction pipeline using OCR models to strengthen compliance  
-- Created interpretable ML models for corruption and money laundering detection  
-
-### J.P. Morgan — Business Analyst (Jul 2020 – Aug 2023)
-- Automated data ingestion and transformation using SQL, Python, and event‑log mining  
-- Supported anomaly detection initiatives with descriptive analysis and reporting  
-- Built a Python‑based ML Email Classifier Model  
-- Optimized ML models to predict settlement failures with 70% accuracy  
-
-### Cognizant Technology Solutions — Business Analyst (Aug 2018 – Jul 2020)
-- Developed Tableau dashboards and Excel reports to visualize user engagement  
-- Built ETL pipelines cutting 4 hours of manual work monthly  
-- Conducted A/B testing and clustering analysis to boost retention rates by 20%  
-
----
-
-## 🎓 Education
-- **Master of Technology in Artificial Intelligence Systems (MTech AIS)** — NUS (In Progress)  
-- **Bachelor of Science in Business Analytics** — SUSS (2019–2022, GPA 4.03)  
-- **Diploma in Financial Business Informatics** — Temasek Polytechnic (2013–2016)  
-
----
-
-## 🛠 Skills
-**Business Analytics:** Business acumen, Change management, Data visualization & storytelling, Process improvement, Requirements gathering, Stakeholder communication  
-**Data Analytics:** Data cleaning & preprocessing, Exploratory data analysis (EDA), Reporting & dashboard creation  
-**Data Science:** Database querying, Data engineering, Feature engineering & model selection, Machine learning algorithms, Model evaluation, Statistics  
-**AI & ML:** Computer vision, Deep learning, Generative models, Model deployment & MLOps, Natural Language Processing, Optimization techniques, Reinforcement learning  
-**Tools:** Alteryx, MSSQL, MySQL, Power BI, Tableau, UiPath, SPSS, SharePoint  
-**Soft Skills:** Stakeholder communication, Project management, Solution design  
-
----
-
-## 📂 Personal Projects
-- **NLP Email Classifier** — Automated categorization of emails into robotic automation workflows  
-- **PII Redaction Pipeline** — OCR‑based system to detect and mask sensitive information in PDFs  
-- **Movie Recommendation System** — Sentiment‑driven recommender using text mining and NLP  
-- **Computer Vision Object Detection** — CNN‑based pipeline for real‑time image recognition  
-- **Music Identification Tool** — Audio fingerprinting system for robust classification in noisy environments  
-
----
-
-## 📬 Contact
-- LinkedIn: [Your LinkedIn URL]  
-- GitHub: [Your GitHub URL]  
-- Kaggle: [Your Kaggle URL]  
-- Tableau: [Your Tableau URL]  
-
----
+© Valente Lam

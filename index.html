@@ -1,456 +1,112 @@
-<!-- for jekyll theme
----
-layout: default
---- 
--->
-
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Valente — Data & AI Professional</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Valente Lam is a Singapore-based AI Engineer and Data Scientist building production-ready machine learning systems.">
+  <meta name="theme-color" content="#07111f">
+  <title>Valente Lam | AI Engineer &amp; Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="{{ " css/style.css" | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-  <script src="https://unpkg.com/feather-icons"></script>
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script defer src="js/script.js"></script>
 </head>
-
 <body>
-  <header>
-    <h1>Valente — Data & AI Professional</h1>
-    <p>Business Analyst | Data Analyst | Data Science | AI Engineer | Leadership</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top"><span class="brand-mark">VL</span><span>Valente Lam</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about">Profile</a><a href="#experience">Résumé</a><a href="#projects">Portfolio</a><a href="#skills">Skills</a><a class="nav-cta" href="#contact">Let’s connect</a>
+      </div>
+    </nav>
   </header>
 
-  <section id="profile" class="fullpage">
-    <div id="about" class="background-alt">
-      <section class="bg-white border border-gray-200 rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90 max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">👋 About Me</h2>
-        <p class="text-gray-700 mb-4">
-          I am <strong>Valente Lam</strong>, an AI Engineer and Data Scientist professional with over seven years of experience in bridging data science and production systems across financial services and hospitality. 
-          I've deployed fraud detection models, NLP classifiers, and real-time data pipelines at scale, while building AI governance and MLOps frameworks. <br><br>
-          
-          Outside work, I engineer agentic RAG systems, computer vision agents, and audio recognition pipelines. 
-          Currently pursuing a part‑time <strong>Master of Technology in Artificial Intelligence Systems</strong> at the National University of Singapore, 
-          I specialize in bridging technical execution with strategic business impact. <br><br>
-          
-          I'm looking for Data Science or AI Engineer roles where I can build intelligence that actually gets deployed.
-        </p>
-        <ul class="list-disc pl-6 text-gray-700 space-y-3">
-          <li><strong>Industry Experience:</strong> 7+ years delivering analytics and AI solutions across finance, hospitality, and technology sectors.</li>
-          <li><strong>AI‑Driven Impact:</strong> Designed solutions that enhance compliance, automate processes, and uncover actionable insights.</li>
-          <li><strong>Technical Expertise:</strong> Built resilient data pipelines, fraud detection models, and interpretable machine learning systems.</li>
-          <li><strong>Enterprise Readiness:</strong> Proven ability to translate complex algorithms into scalable, business‑ready solutions.</li>
-          <li><strong>Educational Foundation:</strong> Strong background in Business Analytics, advanced expertise in AI and machine learning.</li>
-          <li><strong>Leadership Vision:</strong> Committed to shaping Singapore’s digital ecosystem through responsible, ethical, and scalable AI adoption.</li>
-        </ul>
-      </section>
-    </div>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span>Singapore · Open to opportunities</p>
+          <h1 id="hero-title">I build AI systems that move from <span>prototype to production.</span></h1>
+          <p class="hero-summary">AI Engineer and Data Scientist with 7+ years of experience turning complex data into reliable products across financial services, hospitality, and technology.</p>
+          <div class="hero-actions"><a class="button primary" href="#experience">View résumé <span>↓</span></a><a class="button secondary" href="#projects">Explore portfolio <span>↘</span></a><button class="button text-button" id="print-resume" type="button">Save as PDF</button></div>
+          <div class="hero-proof"><div><strong>7+</strong><small>Years in data &amp; AI</small></div><div><strong>70%</strong><small>Efficiency uplift</small></div><div><strong>92%</strong><small>Classifier accuracy</small></div></div>
+        </div>
+        <aside class="hero-card reveal">
+          <div class="monogram">VL</div><p class="card-label">Current focus</p><h2>Production AI, responsible by design.</h2>
+          <p>I combine machine learning, data engineering, and business context to build systems people can trust and use.</p>
+          <div class="focus-list"><span>Machine Learning</span><span>Generative AI</span><span>Computer Vision</span><span>MLOps</span></div>
+          <div class="availability"><i></i> AI Engineering · Data Science</div>
+        </aside>
+      </div>
+    </section>
 
-    <!-- Start of Experience -->
-    <div id="experience" class="background-alt py-12">
-      <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">👔 Experience</h2>
-    
-      <div id="experience-timeline">
-        <!-- SS&C Technology -->
-        <div data-date="September 2025 – Present">
-          <h3>SS&C Technology</h3>
-          <h4>Artificial Intelligence Engineer</h4>
-          <ul class="list-disc pl-5">
-            <li>Engineered end-to-end data transformation pipelines using Python and SQL, replacing manual processes; improved accuracy and efficiency by 70% while eliminating manual errors through automated data quality checks.</li>
-            <li>Mentored junior engineers on production ML pipelines, feature engineering, model evaluation, and data storytelling; conducted code reviews, architecture design sessions, and workshops. Accelerated team capability and established best practices documentation adopted across departments.</li>
-          </ul>
-        </div>
-    
-        <!-- Marina Bay Sands -->
-        <div data-date="August 2023 – September 2025">
-          <h3>Marina Bay Sands</h3>
-          <h4>Senior Data Scientist</h4>
-          <ul class="list-disc pl-5">
-            <li>Engineered a production computer vision pipeline with multi-OCR ensemble models and deep learning for automated PII redaction in PDFs; achieved GDPR compliance and deployed as a scalable microservice tool.</li>
-            <li>Designed interpretable unsupervised learning models (isolation forest, autoencoders) for AML and corruption detection; integrated SHAP and LIME for transparency, reducing false positives by 25%.</li>
-            <li>Built resilient ETL/ELT pipelines handling high-volume structured and unstructured data; implemented feature engineering pipelines with automated data quality monitoring, improving efficiency by 30%.</li>
-            <li>Developed interactive Tableau dashboards with real-time KPI monitoring for revenue optimization, AML risk exposure, and guest behaviour analytics; enabled executives to identify risks 40% faster.</li>
-          </ul>
-        </div>
-    
-        <!-- JP Morgan -->
-        <div data-date="July 2020 – August 2023">
-          <h3>JP Morgan</h3>
-          <h4>Data Scientist</h4>
-          <ul class="list-disc pl-5">
-            <li>Optimized XGBoost models for settlement failure prediction using time-series data; achieved 70%+ accuracy and reduced financial risk through proactive mitigation.</li>
-            <li>Deployed a Python-based ML Email Classifier using BERT transformers; streamlined email triage workflows, reducing manual effort by 60% and achieving 92% classification accuracy across 50,000+ monthly emails.</li>
-            <li>Built NLP clustering and topic modelling pipelines on speech-to-text transcripts using BERT embeddings and K-means; reduced call volume by 10% through automated routing.</li>
-            <li>Led process mining initiative on event logs; delivered 40% efficiency improvement and eliminated 12 redundant processes through data-driven redesign.</li>
-            <li>Enhanced anomaly detection algorithms with precision-recall tuning and A/B testing; improved precision and recall scores for downstream risk mitigation.</li>
-            <li>Developed dashboards monitoring settlement failures and KPIs with automated pipelines; enabled real-time risk visibility for trading operations.</li>
-          </ul>
-        </div>
-    
-        <!-- Cognizant Technology Solutions -->
-        <div data-date="August 2018 – July 2020">
-          <h3>Cognizant Technology Solutions</h3>
-          <h4>Data Analyst</h4>
-          <ul class="list-disc pl-5">
-            <li>Implemented A/B testing frameworks and statistical hypothesis testing to optimize UI/UX; boosted retention rates by 20% and achieved 100+ daily active users.</li>
-            <li>Engineered automated ETL pipelines using Python and SQL with statistical validation; improved accuracy and efficiency by 70%, reducing processing time from hours to minutes.</li>
-            <li>Delivered predictive modelling and automation strategies for resource optimization; achieved 5 FTE reduction through automation-driven efficiency gains.</li>
-          </ul>
+    <section class="resume-intro" aria-label="Résumé summary">
+      <div class="container resume-bar reveal">
+        <div><span>Current role</span><strong>AI Engineer</strong></div>
+        <div><span>Experience</span><strong>7+ years</strong></div>
+        <div><span>Specialisms</span><strong>ML · NLP · Computer Vision</strong></div>
+        <div><span>Education</span><strong>NUS MTech AIS</strong></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div class="section-heading reveal"><p class="kicker">01 / Professional profile</p><h2>Technical depth.<br>Business perspective.</h2><div class="resume-details"><p><span>Location</span>Singapore</p><p><span>Target roles</span>AI Engineer · Data Scientist</p><p><span>Industries</span>Financial Services · Hospitality · Technology</p></div></div>
+        <div class="about-copy reveal">
+          <p class="lead">I’m Valente, an AI Engineer and Data Scientist who bridges experimentation and dependable production systems.</p>
+          <p>Across SS&amp;C Technologies, Marina Bay Sands, J.P. Morgan, and Cognizant, I’ve built fraud detection models, NLP classifiers, real-time data pipelines, and AI governance frameworks. My work is grounded in a simple principle: a model creates value only when it is understandable, reliable, and deployed.</p>
+          <p>Outside work, I explore agentic RAG, computer vision agents, and audio recognition. I’m also pursuing a part-time Master of Technology in Artificial Intelligence Systems at the National University of Singapore.</p>
+          <div class="principles"><div><span>01</span><strong>Outcome-led</strong><p>Start with the business decision, not the algorithm.</p></div><div><span>02</span><strong>Production-minded</strong><p>Design for reliability, scale, and maintainability.</p></div><div><span>03</span><strong>Responsible</strong><p>Build transparency and governance into the system.</p></div></div>
         </div>
       </div>
-    </div>
-    <!-- End of Experience Timeline -->
+    </section>
 
-    <!-- Start of Education -->
-    <div id="education" class="background-alt">
-      <section class="bg-white border border-gray-200 rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90 max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold text-sky-500 mb-8 flex items-center">📚 Education</h2>
-
-        <!-- MTech AIS -->
-        <div class="mb-8">
-          <h3 class="text-xl font-semibold text-sky-600 mb-2">🎓 Master of Technology in Artificial Intelligence
-            Systems (MTech AIS)</h3>
-          <p class="text-gray-700"><strong>NUS</strong> — In Progress</p>
-          <ul class="list-disc pl-6 text-gray-700 space-y-2 mt-2" style="text-align: left;">
-            <li>Practice-based programme covering <strong>Machine Learning</strong>, <strong>Deep Learning</strong>,
-              <strong>Generative AI</strong>, and <strong>Large Language Models (LLMs)</strong>.
-            </li>
-            <li>Applications across robotics, autonomous vehicles, IoT, smart cities, and enterprise AI systems.</li>
-            <li>Emphasis on <strong>Explainable & Responsible AI</strong>, AI cybersecurity, and MLSecOps practices.
-            </li>
-            <li>Capstone project with industry collaboration to deliver impactful AI solutions.</li>
-          </ul>
+    <section class="section tint" id="experience">
+      <div class="container">
+        <div class="section-heading heading-row reveal"><div><p class="kicker">02 / Résumé</p><h2>Professional experience.</h2></div><p>Seven years building measurable impact across highly regulated and data-intensive industries.</p></div>
+        <div class="timeline">
+          <article class="job reveal"><div class="job-date"><b>2025 — Present</b><span>Singapore</span></div><div class="job-title"><h3>Artificial Intelligence Engineer</h3><p>SS&amp;C Technologies</p></div><ul><li>Engineered end-to-end Python and SQL pipelines that replaced manual processes, improving accuracy and efficiency by 70%.</li><li>Established production ML practices through code reviews, architecture sessions, workshops, and reusable documentation.</li></ul></article>
+          <article class="job reveal"><div class="job-date"><b>2023 — 2025</b><span>Singapore</span></div><div class="job-title"><h3>Senior Data Scientist</h3><p>Marina Bay Sands</p></div><ul><li>Built a production computer vision pipeline using multi-OCR ensembles and deep learning to automate PII redaction.</li><li>Designed interpretable AML anomaly detection with Isolation Forest, autoencoders, SHAP, and LIME, reducing false positives by 25%.</li><li>Delivered resilient ETL/ELT pipelines and executive dashboards, improving operational efficiency and risk visibility.</li></ul></article>
+          <article class="job reveal"><div class="job-date"><b>2020 — 2023</b><span>Singapore</span></div><div class="job-title"><h3>Data Scientist</h3><p>J.P. Morgan</p></div><ul><li>Optimized XGBoost models for settlement-failure prediction, achieving 70%+ accuracy on time-series data.</li><li>Deployed a BERT email classifier processing 50,000+ monthly emails with 92% accuracy and 60% less manual effort.</li><li>Led process-mining and NLP initiatives that improved efficiency, automated routing, and strengthened risk monitoring.</li></ul></article>
+          <article class="job reveal"><div class="job-date"><b>2018 — 2020</b><span>Singapore</span></div><div class="job-title"><h3>Data Analyst</h3><p>Cognizant</p></div><ul><li>Built experimentation frameworks that improved retention by 20% through statistical testing and user-behaviour analysis.</li><li>Automated ETL workflows and delivered predictive solutions that enabled a five-FTE efficiency gain.</li></ul></article>
         </div>
+      </div>
+    </section>
 
-        <!-- BSc Business Analytics -->
-        <div class="mb-8">
-          <h3 class="text-xl font-semibold text-sky-600 mb-2">🎓 Bachelor of Science in Business Analytics</h3>
-          <p class="text-gray-700"><strong>Singapore University of Social Sciences (SUSS)</strong></p>
-          <ul class="list-disc pl-6 text-gray-700 space-y-2 mt-2" style="text-align: left;">
-            <li>Applied <strong>business acumen</strong> and <strong>analytics expertise</strong> to transform raw data
-              into actionable insights supporting executive decision‑making.</li>
-            <li>Completed <strong>65 credit units</strong> of core analytics modules including statistics, forecasting,
-              optimisation, and data mining, building a strong technical foundation.</li>
-            <li>Delivered <strong>real‑world projects and capstone assignments</strong> that mirrored industry
-              challenges, ensuring job‑ready applied analytics skills.</li>
-            <li>Pursued <strong>minors and electives</strong> (ICT, FinTech, Marketing) to broaden adaptability across
-              diverse industries.</li>
-            <li>Earned <strong>professional certifications</strong> such as Google Analytics and AWS Certified Machine
-              Learning, strengthening technical credibility.</li>
-            <li>Developed strong skills in <strong>data storytelling and stakeholder communication</strong>, enabling
-              clear translation of analytics into business strategies.</li>
-            <li>Engaged in <strong>student interest groups and innovation forums</strong>, cultivating collaboration,
-              adaptability, and leadership potential.</li>
-          </ul>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row reveal"><div><p class="kicker">03 / Portfolio</p><h2>Selected projects.</h2></div><p>Applied machine learning work spanning language, vision, privacy, and audio.</p></div>
+        <div class="projects-grid">
+          <article class="project wide reveal"><div class="project-image"><img src="assets/img/PII redaction.jpg" alt="Automated PII redaction interface" loading="lazy"></div><div class="project-copy"><em>01</em><p class="project-type">Computer Vision · Privacy</p><h3>PII Redaction Pipeline</h3><p>An OCR-based document intelligence system that detects and masks sensitive information in scanned PDFs for compliant, scalable processing.</p><div class="tags"><span>Python</span><span>OCR</span><span>Deep Learning</span></div></div></article>
+          <article class="project reveal"><div class="project-image"><img src="assets/img/Email Classifier.png" alt="Email classification application" loading="lazy"></div><div class="project-copy"><em>02</em><p class="project-type">Natural Language Processing</p><h3>NLP Email Classifier</h3><p>Automated email categorisation for robotic workflows, connecting language models to real operational processes.</p><div class="tags"><span>Python</span><span>BERT</span><span>Automation</span></div></div></article>
+          <article class="project reveal"><div class="project-image"><img src="assets/img/Movie Recommender.png" alt="Movie recommendation system" loading="lazy"></div><div class="project-copy"><em>03</em><p class="project-type">Recommendation Systems</p><h3>Movie Recommender</h3><p>A sentiment-driven engine using text mining to turn audience reviews into personalised suggestions.</p><div class="tags"><span>Python</span><span>NLP</span><span>Text Mining</span></div></div></article>
+          <article class="project reveal"><div class="project-image"><img src="assets/img/Object Dectection.PNG" alt="Object detection model results" loading="lazy"></div><div class="project-copy"><em>04</em><p class="project-type">Computer Vision</p><h3>Object Detection</h3><p>A convolutional neural network pipeline for real-time multi-class recognition and localisation.</p><div class="tags"><span>Python</span><span>CNN</span><span>Vision</span></div></div></article>
+          <article class="project reveal"><div class="project-image"><img src="assets/img/Audio Detection.png" alt="Audio fingerprinting application" loading="lazy"></div><div class="project-copy"><em>05</em><p class="project-type">Signal Processing</p><h3>Music Identification</h3><p>An audio-fingerprinting system designed to recognise sound clips reliably—even in noisy environments.</p><div class="tags"><span>Python</span><span>Audio</span><span>Signal Analysis</span></div></div></article>
         </div>
+      </div>
+    </section>
 
-        <!-- Diploma in Big Data & Analytics -->
-        <div class="mb-8">
-          <h3 class="text-xl font-semibold text-sky-600 mb-2">📊 Diploma in Financial Business Informatics</h3>
-          <p class="text-gray-700"><strong>Temasek Polytechnic</strong></p>
-          <ul class="list-disc pl-6 text-gray-700 space-y-2 mt-2" style="text-align: left;">
-            <li>Hands‑on experience in <strong>data visualisation, analytics lifecycle, and predictive
-                modelling</strong> using industry tools.</li>
-            <li>Built strong foundations in <strong>database application development, data structures & algorithms, and
-                computational thinking</strong>.</li>
-            <li>Completed internships with organisations applying analytics to real‑world business challenges. </li>
-            <li>Practiced applied learning at the <strong>Analytics Innovation Centre</strong> (SAS collaboration),
-              developing business intelligence solutions in a data‑rich environment.</li>
-            <li>Developed smart applications leveraging <strong>machine learning, deep learning, and AI
-                fundamentals</strong>.</li>
-          </ul>
+    <section class="section dark" id="skills">
+      <div class="container">
+        <div class="section-heading heading-row reveal"><div><p class="kicker">04 / Capabilities</p><h2>From data to dependable AI.</h2></div><p>A cross-functional toolkit for discovery, modelling, deployment, and adoption.</p></div>
+        <div class="skills-grid">
+          <article class="skill reveal"><span>01</span><h3>AI &amp; Machine Learning</h3><p>Deep Learning · NLP · Computer Vision · Generative AI · Explainable AI · Reinforcement Learning</p></article>
+          <article class="skill reveal"><span>02</span><h3>Data Science</h3><p>Experimentation · Statistical Modelling · Feature Engineering · Model Evaluation · Anomaly Detection</p></article>
+          <article class="skill reveal"><span>03</span><h3>Engineering &amp; MLOps</h3><p>Python · SQL · ETL/ELT · Model Deployment · Data Quality · Production Pipelines</p></article>
+          <article class="skill reveal"><span>04</span><h3>Analytics &amp; Strategy</h3><p>Tableau · Power BI · Process Mining · Data Storytelling · Stakeholder Management · Solution Design</p></article>
         </div>
-      </section>
-    </div>
-    <!-- End of Education -->
+        <div class="toolbelt reveal"><span>Python</span><span>SQL</span><span>Tableau</span><span>Power BI</span><span>Alteryx</span><span>UiPath</span><span>SHAP</span><span>BERT</span><span>XGBoost</span></div>
+      </div>
+    </section>
 
-    <!-- Start of Personal Projects -->
-    <div id="work" class="background-alt">
-      <section id="work" class="mb-12 max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">📂 Personal Projects</h2>
-        <!-- NLP Email Classifier -->
-        <div id="nlp-email"
-          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
-          <div class="grid md:grid-cols-2 gap-8">
-            <!-- Left column -->
-            <div class="p-8">
-              <div class="flex items-start justify-between">
-                <div>
-                  <h3 class="text-2xl font-bold text-sky-700 mb-2">NLP Email Classifier</h3>
-                  <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Python</span>
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">NLP</span>
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Automation</span>
-                  </div>
-                </div>
-              </div>
-              <p class="text-gray-700 mb-6">
-                Automated categorization of emails into robotic automation workflows.
-              </p>
-              <ul class="space-y-2 mb-6">
-                <li class="flex items-start">
-                  <i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i>
-                  <span>Classifies incoming emails by topic</span>
-                </li>
-                <li class="flex items-start">
-                  <i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i>
-                  <span>Integrates with RPA pipelines</span>
-                </li>
-              </ul>
-            </div>
-            <!-- Right column (optional screenshots) -->
-            <div class="carousel-container relative h-96 md:h-auto">
-              <!-- Replace with screenshots if available -->
-              <div
-                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Email Classifier.png" alt="NLP Email Classifier screenshot"
-                  class="rounded-lg shadow-lg object-contain flex-shrink-0 snap-center" />
-              </div>
-            </div>
-          </div>
-        </div>
+    <section class="section" id="education"><div class="container two-col"><div class="section-heading reveal"><p class="kicker">05 / Education</p><h2>Always learning,<br>always applying.</h2></div><div class="education reveal"><article><div><small>In progress</small><h3>Master of Technology in Artificial Intelligence Systems</h3><p>National University of Singapore</p></div><span>MTech AIS</span></article><article><div><h3>Bachelor of Science in Business Analytics</h3><p>Singapore University of Social Sciences</p></div><span>BSc</span></article><article><div><h3>Diploma in Financial Business Informatics</h3><p>Temasek Polytechnic</p></div><span>Diploma</span></article></div></div></section>
 
-        <!-- PII Redaction Pipeline -->
-        <div id="pii-redaction"
-          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="p-8">
-              <h3 class="text-2xl font-bold text-sky-700 mb-2">PII Redaction Pipeline</h3>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Python</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">OCR</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">PDF Processing</span>
-              </div>
-              <p class="text-gray-700 mb-6">
-                OCR-based system to detect and mask sensitive information in PDFs.
-              </p>
-              <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Detects PII in scanned documents</span></li>
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Masks sensitive fields automatically</span></li>
-              </ul>
-            </div>
-            <div class="carousel-container relative h-96 md:h-auto">
-              <div
-                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/PII redaction.jpg" alt="PII Redaction screenshot"
-                  class="rounded-lg shadow-lg object-contain flex-shrink-0 snap-center" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Movie Recommendation System -->
-        <div id="movie-recommender"
-          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="p-8">
-              <h3 class="text-2xl font-bold text-sky-700 mb-2">Movie Recommendation System</h3>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Python</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">NLP</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Text Mining</span>
-              </div>
-              <p class="text-gray-700 mb-6">
-                Sentiment-driven recommender using text mining and NLP.
-              </p>
-              <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Analyzes movie reviews for sentiment</span></li>
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Generates personalized recommendations</span></li>
-              </ul>
-            </div>
-            <div class="carousel-container relative h-96 md:h-auto">
-              <div
-                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Movie Recommender.png" alt="Movie Recommendation screenshot"
-                  class="rounded-lg shadow-lg object-contain flex-shrink-0 snap-center" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Computer Vision Object Detection -->
-        <div id="cv-detection"
-          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="p-8">
-              <h3 class="text-2xl font-bold text-sky-700 mb-2">Computer Vision Object Detection</h3>
-              <div class="flex flex-wrap gap-2 mb-4">
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Python</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">CNN</span>
-                <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Image Recognition</span>
-              </div>
-              <p class="text-gray-700 mb-6">
-                CNN-based pipeline for image recognition tasks.
-              </p>
-              <ul class="space-y-2 mb-6">
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Detects objects in real-time</span></li>
-                <li class="flex items-start"><i data-feather="check-circle"
-                    class="text-green-500 mr-2 mt-0.5"></i><span>Supports multiple image classes</span></li>
-              </ul>
-            </div>
-            <div class="carousel-container relative h-96 md:h-auto">
-              <div
-                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Object Dectection.PNG" alt="Object Detection screenshot"
-                  class="rounded-lg shadow-lg object-contain flex-shrink-0 snap-center" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Music Identification Tool -->
-        <div id="music-identification"
-          class="app-card bg-white rounded-2xl shadow-xl overflow-hidden mb-8 backdrop-blur-sm bg-opacity-90">
-          <div class="grid md:grid-cols-2 gap-8">
-            <!-- Left column -->
-            <div class="p-8">
-              <div class="flex items-start justify-between">
-                <div>
-                  <h3 class="text-2xl font-bold text-sky-700 mb-2">Music Identification Tool</h3>
-                  <div class="flex flex-wrap gap-2 mb-4">
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Python</span>
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Audio Processing</span>
-                    <span class="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm">Signal Analysis</span>
-                  </div>
-                </div>
-              </div>
-              <p class="text-gray-700 mb-6">
-                Audio fingerprinting system to classify sound clips in noisy environments.
-              </p>
-              <ul class="space-y-2 mb-6">
-                <li class="flex items-start">
-                  <i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i>
-                  <span>Generates unique audio fingerprints for each track</span>
-                </li>
-                <li class="flex items-start">
-                  <i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i>
-                  <span>Robust classification even in noisy conditions</span>
-                </li>
-                <li class="flex items-start">
-                  <i data-feather="check-circle" class="text-green-500 mr-2 mt-0.5"></i>
-                  <span>Supports real-time identification of sound clips</span>
-                </li>
-              </ul>
-            </div>
-            <!-- Right column (optional screenshot) -->
-            <div class="carousel-container relative h-96 md:h-auto">
-              <div
-                class="carousel-track flex gap-4 overflow-x-auto h-full w-full px-12 snap-x snap-mandatory hide-scrollbar items-center cursor-grab active:cursor-grabbing">
-                <img src="assets/img/Audio Detection.png" alt="Music Identification Tool screenshot"
-                  class="rounded-lg shadow-lg object-contain flex-shrink-0 snap-center" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <!-- End of Personal Projects -->
-
-    <!-- Skills Section -->
-    <div id="skills" class="background-alt">
-      <section id="skills" class="bg-white border border-gray-200 rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90 max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">🛠️ Skills</h2>
-
-        <!-- Business Analytics -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">📊 Business Analytics</h3>
-        <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Business Acumen</span>
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Change Management</span>
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Data Visualization &
-            Storytelling</span>
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Process Improvement</span>
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Requirements Gathering</span>
-          <span class="skill-pill bg-indigo-600 text-white px-4 py-2 rounded-full">Stakeholder Communication</span>
-        </div>
-
-        <!-- Data Analytics -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">📈 Data Analytics</h3>
-        <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Data Cleaning & Pre-processing</span>
-          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Exploratory Data Analysis (EDA)</span>
-          <span class="skill-pill bg-green-500 text-white px-4 py-2 rounded-full">Reporting & Dashboard Creation</span>
-        </div>
-
-        <!-- Data Science -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">🧪 Data Science</h3>
-        <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Database Querying</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Data Engineering</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Feature Engineering & Model
-            Selection</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Machine Learning Algorithms</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Model Evaluation</span>
-          <span class="skill-pill bg-pink-500 text-white px-4 py-2 rounded-full">Statistics</span>
-        </div>
-
-        <!-- AI & ML -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">🤖 AI & ML</h3>
-        <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Computer Vision</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Deep Learning</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Generative Models</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Model Deployment & MLOps</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Natural Language Processing</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Optimization Techniques</span>
-          <span class="skill-pill bg-sky-600 text-white px-4 py-2 rounded-full">Reinforcement Learning</span>
-        </div>
-
-        <!-- Tools -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">⚙️ Tools</h3>
-        <div class="flex flex-wrap gap-3 mb-8">
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">Alteryx</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">MSSQL</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">Microsoft Application</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">My SQL</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">PowerBi</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">Sharepoint</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">SPSS</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">Tableau</span>
-          <span class="skill-pill bg-green-700 text-white px-4 py-2 rounded-full">UiPath</span>
-        </div>
-
-        <!-- Soft Skills -->
-        <h3 class="text-xl font-semibold text-gray-800 mb-4">🌟 Soft Skills</h3>
-        <div class="flex flex-wrap gap-3">
-          <span class="skill-pill bg-purple-500 text-white px-4 py-2 rounded-full">Stakeholder Communication</span>
-          <span class="skill-pill bg-purple-500 text-white px-4 py-2 rounded-full">Project Management</span>
-          <span class="skill-pill bg-purple-500 text-white px-4 py-2 rounded-full">Solution Design</span>
-        </div>
-      </section>
-    </div>
-    <!-- End of Skills Section -->
-
-    <!-- Start of Contact  -->
-    <div id="contact" class="background-alt">
-      <section id="contact" class="bg-white border border-gray-200 rounded-2xl shadow-xl p-8 mb-12 backdrop-blur-sm bg-opacity-90 max-w-3xl mx-auto">
-        <h2 class="text-3xl font-bold text-sky-400 mb-8 flex items-center">📫 Contact</h2>
-        <p>
-          LinkedIn: <a href="https://www.linkedin.com/in/valente-lam-ba90a1183/" target="_blank">View</a><br>
-          Github: <a href="https://github.com/Tempesta-96" target="_blank">View</a><br>
-          Kaggle: <a href="https://www.kaggle.com/perfectnight123" target="_blank">View</a><br>
-          Tableau: <a href="https://public.tableau.com/app/profile/valente5895/vizzes" target="_blank">View</a><br>
-        </p>
-      </section>
-    </div>
-    <!-- End of Contact -->
-
-  </section>
+    <section class="contact" id="contact"><div class="container contact-grid reveal"><div><p class="kicker">06 / Contact</p><h2>Let’s build something<br><span>intelligent.</span></h2></div><div><p>I’m interested in AI Engineering and Data Science opportunities where thoughtful technology meets meaningful business impact.</p><div class="contact-links"><a href="https://www.linkedin.com/in/valente-lam-ba90a1183/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="https://github.com/Tempesta-96" target="_blank" rel="noopener">GitHub <span>↗</span></a><a href="https://www.kaggle.com/perfectnight123" target="_blank" rel="noopener">Kaggle <span>↗</span></a><a href="https://public.tableau.com/app/profile/valente5895/vizzes" target="_blank" rel="noopener">Tableau Public <span>↗</span></a></div></div></div></section>
+  </main>
+  <div class="print-header"><div class="print-name">Valente Lam</div><p>AI Engineer &amp; Data Scientist · Singapore</p><p>linkedin.com/in/valente-lam-ba90a1183 · github.com/Tempesta-96</p></div>
+  <footer><div class="container"><p>© <span id="current-year"></span> Valente Lam</p><div><button id="footer-print" type="button">Print résumé</button><a href="#top">Back to top ↑</a></div></div></footer>
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/script.js"></script>
-<script>
-  feather.replace();
-</script>
-
 </html>
